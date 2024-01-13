@@ -1,0 +1,147 @@
+@use '../abstracts/index' as c;
+
+.header-home {
+    background-image: url("../images/fondo-moderno-ciudad.png");
+    height: 550px;
+    position: relative;
+}
+
+
+.title-home {
+
+    color: c.$primary;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#row-catalogo {
+    background-image: url(../images/fondo-color-logoo.png);
+    height: 1050px;
+    margin: 0%;
+}
+
+#text-catalogo {
+    color: white;
+    font-size: 30px;
+
+}
+
+.cards-products {
+
+    display: flex !important;
+    justify-content: center;
+}
+
+.card {
+
+    margin: 0.8em;
+    width: calc(100%/3);
+    height: 100%;
+    margin-left: 2%;
+    margin-right: 2%
+}
+
+.card-img,
+.card-img-top,
+.card-img-bottom {
+
+    width: 100%;
+    height: 250px;
+
+}
+
+#row-imkns {
+
+    background-image: url(../images/fondo-color-blanco.png);
+    background-size: cover;
+    position: relative;
+    margin: 0%;
+
+    img {
+        width: 350px;
+        border-radius: 40%;
+        justify-content: center;
+    }
+
+}
+
+#col-img-imkns {
+
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+
+.title-inmks {
+    color: c.$primary;
+    font-size: 30px;
+
+}
+
+#row-faqs {
+
+    background-color: #F8F8F8;
+    background-size: cover;
+    margin: 0%;
+  
+}
+.title-faqs {
+    color: c.$primary;
+    font-size: 30px;
+    padding-top: 50px !important;
+}
+
+.link-primary {
+
+    color: c.$primary !important;
+    text-decoration-color: c.$primary !important;
+}
+
+
+#btn-faqs {
+
+    padding-top: 30px !important;
+    margin: 0%;
+  
+
+}
+
+
+@media screen and (max-width: 992px) {
+    #row-catalogo {
+        background-image: url(../images/fondo-color-logoo.png);
+        height: 1200px;
+        margin: 0%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    #row-catalogo {
+        background-image: url(../images/fondo-color-logoo.png);
+        height: 1200px;
+        margin: 0%;
+    }
+
+    .card:not(:first-child) {
+
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+
+        margin: 0.8em;
+        width: 70%;
+        height: 40%;
+        margin-left: 2%;
+        margin-right: 2%
+    }
+}

@@ -1,0 +1,181 @@
+.btn-cprimary {
+  background-color: #4B3951;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn-csecondary {
+  background-color: white;
+  color: #4B3951;
+  border-radius: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#socialbuttons {
+  display: flex;
+  justify-content: space-around;
+}
+#socialbuttons a {
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 60px;
+  text-align: center;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+#socialbuttons a:hover {
+  transform: scale(1.4);
+}
+
+.navbar {
+  background-color: #4B3951;
+  --bs-navbar-color: white;
+  z-index: 999;
+  font-size: 12.5px;
+}
+
+.row-footer {
+  background-image: url(../images/fondo-color-logoo.png);
+  color: white;
+  margin: 0%;
+}
+
+.footer-links a:before {
+  content: "|";
+  font-weight: 300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+body {
+  background: fixed;
+}
+
+.header-home {
+  background-image: url("../images/fondo-moderno-ciudad.png");
+  height: 550px;
+  position: relative;
+}
+
+.title-home {
+  color: #4B3951;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#row-catalogo {
+  background-image: url(../images/fondo-color-logoo.png);
+  height: 1050px;
+  margin: 0%;
+}
+
+#text-catalogo {
+  color: white;
+  font-size: 30px;
+}
+
+.cards-products {
+  display: flex !important;
+  justify-content: center;
+}
+
+.card {
+  margin: 0.8em;
+  width: 33.3333333333%;
+  height: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.card-img,
+.card-img-top,
+.card-img-bottom {
+  width: 100%;
+  height: 250px;
+}
+
+#row-imkns {
+  background-image: url(../images/fondo-color-blanco.png);
+  background-size: cover;
+  position: relative;
+  margin: 0%;
+}
+#row-imkns img {
+  width: 350px;
+  border-radius: 40%;
+  justify-content: center;
+}
+
+#col-img-imkns {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.title-inmks {
+  color: #4B3951;
+  font-size: 30px;
+}
+
+#row-faqs {
+  background-color: #F8F8F8;
+  background-size: cover;
+  margin: 0%;
+}
+
+.title-faqs {
+  color: #4B3951;
+  font-size: 30px;
+  padding-top: 50px !important;
+}
+
+.link-primary {
+  color: #4B3951 !important;
+  text-decoration-color: #4B3951 !important;
+}
+
+#btn-faqs {
+  padding-top: 30px !important;
+  margin: 0%;
+}
+
+@media screen and (max-width: 992px) {
+  #row-catalogo {
+    background-image: url(../images/fondo-color-logoo.png);
+    height: 1200px;
+    margin: 0%;
+  }
+}
+@media screen and (max-width: 767px) {
+  #row-catalogo {
+    background-image: url(../images/fondo-color-logoo.png);
+    height: 1200px;
+    margin: 0%;
+  }
+  .card:not(:first-child) {
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+    margin: 0.8em;
+    width: 70%;
+    height: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
