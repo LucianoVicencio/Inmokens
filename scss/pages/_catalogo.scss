@@ -1,0 +1,28 @@
+@use '../abstracts/index' as c;
+
+#main-catalogo {
+    
+    background-image: linear-gradient( rgb(243, 243, 243), rgb(252, 252, 252), rgb(243, 243, 243), );
+}
+
+#row-cards{
+
+    height:auto !important;
+    margin-top: 10vh;
+
+}
+
+
+.card-catalogo
+
+{
+    height:auto !important;
+    justify-content:center ;
+
+
+}
+
+.card-title-catalogo {
+
+    color: c.$primary;
+}

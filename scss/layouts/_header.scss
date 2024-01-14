@@ -1,0 +1,12 @@
+@use '../abstracts/index' as c;
+
+.header-home {
+    background-image: url("../images/fondo-moderno-ciudad.png");
+    height: 550px;
+    position: relative;
+}
+
+.header-pages {
+
+    background-color: rgb(243, 243, 243);
+}

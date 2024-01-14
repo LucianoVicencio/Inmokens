@@ -27,7 +27,7 @@
 
 </head>
 
-<header class="header-home">
+<header class="header-home" id="home">
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="#"><img width="50" src="images/logo-inmokens.png" alt="Logo Inmokens"></a>
@@ -41,19 +41,19 @@
                         <a class="nav-link" href="./pages/catalogo.html">Catálogo de propiedades</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./Pages/tokenizar.html">Quiero tokenizar mi propiedad</a>
+                        <a class="nav-link" href="./pages/tokenizar.html">Quiero tokenizar mi propiedad</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./Pages/inmobiliaria.html">Tengo una inmobiliaria</a>
+                        <a class="nav-link" href="./pages/inmobiliaria.html">Tengo una inmobiliaria</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./Pages/contacto.html">Quiero Contactarme</a>
+                        <a class="nav-link" href="#row-contact">Quiero Contactarme</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./Pages/faqs.html">Preguntas frecuentes</a>
+                        <a class="nav-link" href="./pages/faqs.html">Preguntas frecuentes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./Pages/iniciarsesion.html">Inciar Sesion / Registrarse</a>
+                        <a class="nav-link" href="./pages/iniciar-sesion.html">Inciar Sesion / Registrarse</a>
                     </li>
                 </ul>
             </div>
@@ -65,7 +65,7 @@
                 <br>
                 los mejores profesionales para las mejores oportunidades
             </h1>
-            <button class="btn btn-cprimary"> registrate y empieza a invertir</button>
+            <a href="./pages/iniciar-sesion.html"><button class="btn btn-cprimary"> registrate y empieza a invertir</button></a>
         </div>
 </header>
 
@@ -76,7 +76,7 @@
                 <div class="row" id="text-catalogo">
                     <h1>Arma tu cartera con las mejores opciones de inversión</h1> <br>
                     <div class="py-3">
-                        <button class="btn btn-csecondary"> registrate y empieza a invertir</button>
+                        <a href="./pages/iniciar-sesion.html"><button class="btn btn-csecondary"> registrate y empieza a invertir</button></a>
                     </div>
                     <div id="carouselExample" class="carousel carousel-dark slide">
                         <div class="carousel-inner">
@@ -84,7 +84,7 @@
                                 <div class="cards-products">
                                     <div class="card">
                                         <img src="./images/products/product-card-1.1.jpg" class="card-img-top"
-                                            alt="...">
+                                            alt="Brisas Andinas, casa uno">
                                         <div class="card-body">
                                             <h5 class="card-title">Brisas Andinas, Casa 1</h5>
                                             <p class="card-text fw-normal fs-5">
@@ -164,7 +164,6 @@
                                                 <br>
                                                 TIPO DE PROPIEDAD: Vivienda unifamiliar
                                             </p>
-
                                             <a href="#" class="btn btn-cprimary">ver mas propiedades</a>
                                         </div>
                                     </div>
@@ -261,8 +260,6 @@
                 </div>
             </div>
 
-
-
         </div>
 
         <div class="row py-5" id="row-imkns">
@@ -274,10 +271,14 @@
                     <div class="col-lg-7 mt-2 py-3">
                         <div class="container">
                             <h1 class="title-inmks font-weight-bold">sobre nosotros</h1>
-                            <p class="fw-normal">Somos un equipo dedicado a democratizar la inversión inmobiliaria. Con
-                                tecnología avanzada, facilitamos la tokenización de propiedades, abriendo oportunidades
-                                para todos. Transformamos el mercado inmobiliario con transparencia y accesibilidad.</p>
-                            <p class="fw-normal">Tokenizar un inmueble con nosotros garantiza liquidez, fraccionamiento
+                            <p class="fw-normal">Somos un equipo dedicado a democratizar la inversión inmobiliaria.
+                                Con
+                                tecnología avanzada, facilitamos la tokenización de propiedades, abriendo
+                                oportunidades
+                                para todos. Transformamos el mercado inmobiliario con transparencia y accesibilidad.
+                            </p>
+                            <p class="fw-normal">Tokenizar un inmueble con nosotros garantiza liquidez,
+                                fraccionamiento
                                 accesible, transparencia en la propiedad y transacciones seguras. Simplificamos la
                                 inversión inmobiliaria para tu conveniencia y seguridad financiera. Contamos con
                                 profesionales matriculados listos para ayudarte en la venta de tu propiedad</p>
@@ -296,13 +297,14 @@
 
 
         </div>
-        <div class="row" id="row-faqs">
+        <div class="row" id="row-contact">
             <div class="container text-center">
                 <div class="col-10 mx-auto">
                     <h1 class="title-faqs py-4">Contacto</h1>
                     <h4>Un profesional se contactará para resolver todas tus dudas, puedes dejar tu consulta en el
                         siguiente apartado</h4>
-                    <p>tambien puedes <a href="#" class="link-primary">Ir a faqs </a> y buscar si está tu consulta.</p>
+                    <p>tambien puedes <a href="./pages/faqs.html" class="link-primary">ir a Faqs </a> y buscar si está
+                        tu consulta.</p>
                     <div class="mb-3">
                         <br>
                         <label for="exampleFormControlInput1" class="form-label">Correo Electronico / Email Adress
@@ -328,13 +330,13 @@
                     <div class="col-4">
                         <h3 class="fw-light">INMOKENS ©</h3>
                         <p class="footer-links">
-                            <a href="#" class="badge badge-light">home</a>
-                            <a href="#" class="badge badge-light">catálogo</a>
-                            <a href="#" class="badge badge-light">quiero tokenizar</a>
-                            <a href="#" class="badge badge-light">tengo inmobiliaria</a>
-                            <a href="#" class="badge badge-light">contacto</a>
-                            <a href="#" class="badge badge-light">faqs</a>
-                            <a href="#" class="badge badge-light">inciar sesión</a>
+                            <a href="#home" class="badge badge-light">home</a>
+                            <a href="pages/catalogo.html" class="badge badge-light">catálogo</a>
+                            <a href="pages/tokenizar.html" class="badge badge-light">quiero tokenizar</a>
+                            <a href="pages/inmobiliaria.html" class="badge badge-light">tengo inmobiliaria</a>
+                            <a href="#row-contact" class="badge badge-light">contacto</a>
+                            <a href="pages/faqs.html" class="badge badge-light">faqs</a>
+                            <a href="pages/iniciar-sesion.html" class="badge badge-light">inciar sesión</a>
                         </p>
                     </div>
                     <div class="col-4 text-center">
@@ -361,16 +363,18 @@
                             <div class="fw-light" id="socialbuttons">
                                 <a href="https://facebook.com"><i class="fa brands fa-facebook"></i></a>
                                 <a href="https://x.com"><i class="fa-brands fa-square-x-twitter"></i>
-                                <a href="https://linkedin.com"><i class="fa brands fa-linkedin"></i></a>
-                                <a href="https://github.com/LucianoVicencio/Inmokens"><i class="fa brands fa-github"></i></a>
+                                    <a href="https://linkedin.com"><i class="fa brands fa-linkedin"></i></a>
+                                    <a href="https://github.com/LucianoVicencio/Inmokens"><i
+                                            class="fa brands fa-github"></i></a>
                             </div>
                         </div>
+    </footer>
 
 
-                        <!--LINK CDN JS Bootstrap-->
-                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-                            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-                            crossorigin="anonymous"></script>
+    <!--LINK CDN JS Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 

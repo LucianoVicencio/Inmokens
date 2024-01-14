@@ -1,0 +1,30 @@
+@use '../abstracts/index' as c;
+
+#main-tokenizacion {
+    background-image: linear-gradient(c.$primary, #734981, c.$primary );
+    color: white;
+    background-size: cover;
+    margin: 0%;
+    text-decoration: solid;
+    text-align: center;
+}
+
+#video-tokenizacion {
+
+    border-color: white;
+    padding: 10vh;
+    position: relative;
+    padding-bottom: 70%;
+    padding-top: 0px;
+    height: 0;
+    overflow: hidden;
+
+    iframe {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        width: 80%;
+        height: 80%;
+    }
+
+}

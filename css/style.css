@@ -37,6 +37,8 @@
   --bs-navbar-color: white;
   z-index: 999;
   font-size: 12.5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .row-footer {
@@ -55,14 +57,32 @@
   padding-right: 5px;
 }
 
-body {
-  background: fixed;
-}
-
 .header-home {
   background-image: url("../images/fondo-moderno-ciudad.png");
   height: 550px;
   position: relative;
+}
+
+.header-pages {
+  background-color: rgb(243, 243, 243);
+}
+
+#main-catalogo {
+  background-image: linear-gradient(rgb(243, 243, 243), rgb(252, 252, 252), rgb(243, 243, 243));
+}
+
+#row-cards {
+  height: auto !important;
+  margin-top: 10vh;
+}
+
+.card-catalogo {
+  height: auto !important;
+  justify-content: center;
+}
+
+.card-title-catalogo {
+  color: #4B3951;
 }
 
 .title-home {
@@ -129,7 +149,7 @@ body {
   font-size: 30px;
 }
 
-#row-faqs {
+#row-contact {
   background-color: #F8F8F8;
   background-size: cover;
   margin: 0%;
@@ -176,6 +196,36 @@ body {
     margin-left: 2%;
     margin-right: 2%;
   }
+}
+#main-inmobiliaria {
+  background-image: linear-gradient(rgb(243, 243, 243), rgb(252, 252, 252), rgb(243, 243, 243));
+  color: #4B3951;
+}
+
+#main-tokenizacion {
+  background-image: linear-gradient(#4B3951, #734981, #4B3951);
+  color: white;
+  background-size: cover;
+  margin: 0%;
+  text-decoration: solid;
+  text-align: center;
+}
+
+#video-tokenizacion {
+  border-color: white;
+  padding: 10vh;
+  position: relative;
+  padding-bottom: 70%;
+  padding-top: 0px;
+  height: 0;
+  overflow: hidden;
+}
+#video-tokenizacion iframe {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
 }
 
 /*# sourceMappingURL=style.css.map */
