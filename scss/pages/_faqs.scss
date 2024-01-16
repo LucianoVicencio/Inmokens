@@ -1,0 +1,13 @@
+@use '../abstracts/index' as c;
+
+#main-faqs {
+
+    background-image: linear-gradient(rgb(243, 243, 243), rgb(252, 252, 252), rgb(243, 243, 243), );
+    color: c.$primary
+
+}
+
+.text-cprimary 
+{
+    color: c.$primary;
+}

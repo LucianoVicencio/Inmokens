@@ -2,36 +2,151 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inmokens</title>
+    <!DOCTYPE html>
+    <html lang="es">
 
-    <!--LINK CDN de Bootstrap-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inmokens / Iniciar sesión - Registrarse</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!--LINK CDN de Bootstrap-->
 
-    <!--Meta Description-->
-    <meta name="description"
-        content="Somos La plataforma de Crowdfunding Inmobiliario global que hace que la inversión de bajo riesgo en propiedades en todo el mundo sea accesible y mas fácil.">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <!--Meta Keywords-->
-    <meta name="Keywords--" content="TOKEN, INMOBILIARIA, TERRENOS, VENTA, INVERSION, PROPIEDADES, DOLARES">
+        <!--LINK Ref fontawesome-->
+        <script src="https://kit.fontawesome.com/b89c67636a.js" crossorigin="anonymous"></script>
 
-    <!--LINK Ref CSS-->
-    <link rel="stylesheet" href="css/style.css">
+        <!--Meta Description-->
+        <meta name="description"
+            content="Somos La plataforma de Crowdfunding Inmobiliario global que hace que la inversión de bajo riesgo en propiedades en todo el mundo sea accesible y mas fácil.">
 
-</head>
-<header>
+        <!--Meta Keywords-->
+        <meta name="Keywords--" content="TOKEN, INMOBILIARIA, TERRENOS, VENTA, INVERSION, PROPIEDADES, DOLARES">
 
-</header>
+        <!--LINK Ref CSS-->
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html"><img width="50" src="../images/logo-inmokens.png"
+                        alt="Logo Inmokens"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto fw-normal">
+                        <li class="nav-item">
+                            <a class="nav-link" href="catalogo.html">Catálogo de propiedades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tokenizar.html">Quiero tokenizar mi propiedad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="inmobiliaria.html">Tengo una inmobiliaria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html#row-contact">Quiero contactarme</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faqs.html">Preguntas frecuentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inciar sesión / Registrarse</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
 <body>
+    <main id="main-sesion">
+        <div class="container-fluid d-flex align-items-center py-5" id="card-sesion">
+            <form class="mx-auto my-auto">
+                <h4 class="text-center">Iniciar sesión</h4>
+                <div class="mb-3 mt-5">
+                    <label for="exampleInputEmail1" class="form-label">Usuario</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <div id="emailHelp" class="form-text mt-3">¿Olvidaste tu contraseña?</div>
+                </div>
+                <div class="text-center"><button type="submit" class="btn btn-cprimary mt-5 ">Iniciar
+                        sesion</button>
+                </div>
+                <div class="text-center py-3">
+                    <a href="#" class="link-primary form-text">¿Olvidaste tu contraseña? </a>
+                    <br>
+                    <a href="#" class="link-primary">Registrarse </a>
+                </div>
+            </form>
+        </div>
+    </main>
 
+    <footer>
+        <div class="row-footer">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-4">
+                        <h3 class="fw-light">INMOKENS ©</h3>
+                        <p class="footer-links">
+                            <a href="../index.html" class="badge badge-light">home</a>
+                            <a href="catalogo.html" class="badge badge-light">catálogo</a>
+                            <a href="tokenizar.html" class="badge badge-light">quiero tokenizar</a>
+                            <a href="inmobiliaria.html" class="badge badge-light">tengo inmobiliaria</a>
+                            <a href="../index.html#row-contact" class="badge badge-light">contacto</a>
+                            <a href="faqs.html" class="badge badge-light">faqs</a>
+                            <a href="#" class="badge badge-light">inciar sesión</a>
+                        </p>
+                    </div>
+                    <div class="col-4 text-center">
+                        <div>
+                            <i class="fw-light "></i>
+                            <p><span>Pueyrredon 4905</span> Maipú, Mendoza</p>
+                        </div>
+                        <div>
+                            <i class="fw-light"></i>
+                            <p>+0800 123 432 123</p>
+                            <br>
+                            <p>support@tfcoder.com</p>
+                        </div>
+                    </div>
+                    <div class="col-4 ">
+                        <div>
+                            <i class="fw-bold"></i>
+                            <p class="text-center"><span>Sobre la compañia</span></p>
+                            <p class="fw-light"> Innovadora tokenizadora de propiedades, facilitamos
+                                transacciones
+                                inmobiliarias eficientes y seguras. Conectamos propietarios e inmobiliarias
+                                en una
+                                plataforma transparente. Transformamos el mercado con tecnología
+                                vanguardista.</p>
+                        </div>
+                        <div class="container">
+                            <div class="fw-light" id="socialbuttons">
+                                <a href="https://facebook.com"><i class="fa brands fa-facebook"></i></a>
+                                <a href="https://x.com"><i class="fa-brands fa-square-x-twitter"></i>
+                                    <a href="https://linkedin.com"><i class="fa brands fa-linkedin"></i></a>
+                                    <a href="https://github.com/LucianoVicencio/Inmokens"><i
+                                            class="fa brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!--LINK CDN JS Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-</body>
 
-</html>
+</body>
+</header>
