@@ -190,7 +190,7 @@
 @media screen and (max-width: 767px) {
   #row-catalogo {
     background-image: url(../images/fondo-color-logoo.png);
-    height: 1200px;
+    height: 1300px;
     margin: 0%;
   }
   .card:not(:first-child) {
